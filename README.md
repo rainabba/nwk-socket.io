@@ -1,4 +1,4 @@
-**nwk-socket.io**
+# nwk-socket.io
 
 Node-WebKit running a Hapi server, hosting Socket.io to demonstrate how NWK must be configured for this.
 
@@ -16,7 +16,8 @@ In reality, this app isn't even about socket.io though it provides an example of
 
 The purpose of this approach is to be able to host a public site that will try to connect to a socket.io on localhost:8883 and if it's there, use that connection to communicate with an app running on the desktop with all the power of libuv; which I use to launch and manage a native app. This gives me one public web UI that can deal with any native platform through the abstraction provided by the locally running socket.io server. This way I can have a seperate nwk package for each platform and the the UI is consistent and reusable while the native bits can be anything needed for that platform.
 
-**Installation** (node app only but can be packaged and run directly as a node-webkit app using [Node-WebKit](https://github.com/rogerwang/node-webkit) )
+# Installation
+**node app only but can be packaged and run directly as a node-webkit app using [Node-WebKit](https://github.com/rogerwang/node-webkit) **
 
 ```
 git clone https://github.com/rainabba/nwk-socket.io
