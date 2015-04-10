@@ -24,7 +24,7 @@ The purpose of this approach is to be able to host a public site that will try t
 ```
 git clone https://github.com/rainabba/nwk-socket.io
 cd nwk-socket.io
-node injex.js
+node index.js
 ```
 
 Then visit http://github.rainabba.me
